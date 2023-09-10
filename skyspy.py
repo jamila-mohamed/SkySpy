@@ -43,7 +43,7 @@ def prediction(airline, source, destination, duration, total_stops, additional_i
 
 def get_distance(source, destination):
     # Create a geolocator object
-    geolocator = Nominatim(user_agent="abc")
+    geolocator = Nominatim(user_agent="abcde")
     
     # Get the location data for the source and destination cities
     source_location = geolocator.geocode(source)
