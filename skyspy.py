@@ -112,7 +112,7 @@ def main():
         
     if st.session_state['first_run']:
         text = st.empty()
-        text.markdown("<div style='display: flex; justify-content: center; align-items: center; height: 80vh;'><h1 style='text-align: center; font-size: 100px; color: #EC3928;'>Sky Spy</h1></div>", unsafe_allow_html=True)
+        text.markdown("<div style='display: flex; justify-content: center; align-items: center; height: 80vh;'><h1 style='text-align: center; font-size: 100px; color: #EC3928;'>SKYSPY</h1></div>", unsafe_allow_html=True)
         t.sleep(2)
         text.empty()
         st.session_state['first_run'] = False
