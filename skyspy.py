@@ -102,7 +102,7 @@ def main():
     # Create the Streamlit app
     st.set_page_config(page_title = "SkySpy")
     
-    st.sidebar.image("static/skyspy-logo.png")
+    #st.sidebar.image("static/skyspy-logo.png")
     
     st.sidebar.markdown("<h4 style='text-align: center;'>Your Ultimate Guide to Smarter Airfares</h4>", unsafe_allow_html=True)
     st.sidebar.markdown("<p style='text-align: center;'>Experience a stress-free journey with our app - no hidden costs!</p>", unsafe_allow_html=True)
